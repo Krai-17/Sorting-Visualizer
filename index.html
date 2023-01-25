@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 class="title is-large">
+        Sorting Visualiser
+    </h1>
+
+    <div>
+        <button class="button1" id="newArray">New Array</button>
+        <span class="size">Size
+            <input type="range" name="noRows" class="range blue" id="noRows" min="5" max="70" value="30">
+
+        </span>
+        <span class="size">Speed
+            <input type="range" class="range blue" id="speed" min="20" max="300" stepdown="10" value="140">
+        </span>
+        <span class="buttons2">
+            <button class="button2" id="bubble">Bubble Sort</button>
+            <button class="button2" id="selection">Selection Sort</button>
+            <button class="button2" id="insertion">Insertion Sort</button>
+            <button class="button2" id="quick">Quick Sort</button>
+            <button class="button2" id="merge">Merge Sort</button>
+        </span>
+    </div>
+
+
+    <span class="visuals column is-10 is-offset-2" id="visuals">
+    </span>
+
+    <script src="index.js"></script>
+    <script src="bubble.js"></script>
+    <script src="selection.js"></script>
+    <script src="insertion.js"></script>
+    <script src="quick.js"></script>
+    <script src="merge.js"></script>
+</body>
+
+</html>
