@@ -39,6 +39,7 @@ button {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-left: 1px solid #ccc;
     padding-bottom: 50px;
+
 }
 
 .button1 {
@@ -95,10 +96,11 @@ button {
     background-color: #ffffff;
     vertical-align: top;
     justify-content: center;
-    height: 562px;
-    width: 80%;
+    height: 566px;
+    width: 76%;
     transition: 2s all ease;
     padding-bottom: 20px;
+    ;
 }
 
 .bar {
@@ -131,6 +133,7 @@ footer {
     text-align: center;
     padding: 20px;
     overflow: hidden;
+
 }
 
 
