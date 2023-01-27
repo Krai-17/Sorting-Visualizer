@@ -24,16 +24,16 @@ button {
     color: azure;
     font-size: 70px;
     text-shadow: 3px 3px 8px #000000, 3px 3px 5px #000000;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 .sidebar {
     position: absolute;
-    top: 130px;
+    top: 116px;
     right: 0;
     width: 300px;
-    height: 79%;
+    height: 92%;
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
