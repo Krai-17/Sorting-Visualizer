@@ -8,12 +8,12 @@ async function bubbleSort() {
                 await wait(delay);
                 swap(bars[j], bars[j + 1]);
             }
-            bars[j].style.background = '#395B64';
-            bars[j + 1].style.background = '#395B64';
+            bars[j].style.background = '#2C74B3';
+            bars[j + 1].style.background = '#2C74B3';
         }
-        bars[bars.length - 1 - i].style.background = 'green';
+        bars[bars.length - 1 - i].style.background = '#03C988';
     }
-    bars[0].style.background = 'green';
+    bars[0].style.background = '#03C988';
 }
 
 const bubble = document.querySelector('#bubble');

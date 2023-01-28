@@ -1,7 +1,7 @@
 async function insertionSort() {
     const bars = document.querySelectorAll('.bar');
 
-    bars[0].style.background = 'green';
+    bars[0].style.background = '#03C988';
     for (let i = 1; i < bars.length; i++) {
         console.log('in loop');
         let j = i - 1;
@@ -14,12 +14,12 @@ async function insertionSort() {
             j = j - 1;
             await wait(delay);
             for (let k = i; k >= 0; k--) {
-                bars[k].style.background = 'green';
+                bars[k].style.background = '#03C988';
             }
         }
         bars[j + 1].style.height = key;
 
-        bars[i].style.background = 'green';
+        bars[i].style.background = '#03C988';
     }
 }
 

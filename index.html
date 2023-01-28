@@ -10,29 +10,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorting Visualiser</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/logo-color.png">
+
 </head>
 
 <body>
-    <h1 class="heading">
-        Sorting Visualiser
-    </h1>
+    <div class="header">
+        <img src="images/logo-color.png" alt="" class="fi">
+        <h1 class="heading">
+            Sorting Visualiser
+        </h1>
+    </div>
+
     <div class="sidebar">
         <button class="button1" id="newArray">New Array</button>
         <button class="startbutton" id=descending>Start</button>
         <button class="stopbutton" id=ascending>Stop</button>
 
         <span class="size">Size
-            <input type="range" class="range-slider" id="noRows" min="5" max="70" value="30">
+            <input type="range" class="range-slider" id="noRows" min="5" max="38" value="20">
         </span>
         <span class="size">Speed
             <input type="range" class="range-slider" id="speed" min="20" max="300" stepdown="10" value="140">
         </span>
         <span class="buttons2">
-            <button class="button2" id="bubble">Bubble Sort</button>
-            <button class="button2" id="selection">Selection Sort</button>
-            <button class="button2" id="insertion">Insertion Sort</button>
-            <button class="button2" id="quick">Quick Sort</button>
-            <button class="button2" id="merge">Merge Sort</button>
+            <button class="button1" id="bubble">Bubble Sort</button>
+            <button class="button1" id="selection">Selection Sort</button>
+            <button class="button1" id="insertion">Insertion Sort</button>
+            <button class="button1" id="quick">Quick Sort</button>
+            <button class="button1" id="merge">Merge Sort</button>
         </span>
     </div>
 

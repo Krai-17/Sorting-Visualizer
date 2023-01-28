@@ -49,10 +49,10 @@ async function merge(bars, low, mid, high) {
             console.log('In merge while loop if');
             // color
             if ((n1 + n2) === bars.length) {
-                bars[k].style.background = 'green';
+                bars[k].style.background = '#03C988';
             }
             else {
-                bars[k].style.background = 'lightgreen';
+                bars[k].style.background = '#ADE792';
             }
 
             bars[k].style.height = left[i];
@@ -63,10 +63,10 @@ async function merge(bars, low, mid, high) {
             console.log('In merge while loop else');
             // color
             if ((n1 + n2) === bars.length) {
-                bars[k].style.background = 'green';
+                bars[k].style.background = '#03C988';
             }
             else {
-                bars[k].style.background = 'lightgreen';
+                bars[k].style.background = '#ADE792';
             }
             bars[k].style.height = right[j];
             j++;
@@ -78,10 +78,10 @@ async function merge(bars, low, mid, high) {
         console.log("In while if n1 is left");
         // color
         if ((n1 + n2) === bars.length) {
-            bars[k].style.background = 'green';
+            bars[k].style.background = '#03C988';
         }
         else {
-            bars[k].style.background = 'lightgreen';
+            bars[k].style.background = '#ADE792';
         }
         bars[k].style.height = left[i];
         i++;
@@ -92,10 +92,10 @@ async function merge(bars, low, mid, high) {
         console.log("In while if n2 is left");
         // color
         if ((n1 + n2) === bars.length) {
-            bars[k].style.background = 'green';
+            bars[k].style.background = '#03C988';
         }
         else {
-            bars[k].style.background = 'lightgreen';
+            bars[k].style.background = '#ADE792';
         }
         bars[k].style.height = right[j];
         j++;

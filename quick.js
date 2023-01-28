@@ -7,8 +7,8 @@ async function quickSort(bars, l, r) {
     }
     else {
         if (l >= 0 && r >= 0 && l < bars.length && r < bars.length) {
-            bars[r].style.background = 'green';
-            bars[l].style.background = 'green';
+            bars[r].style.background = '#03C988';
+            bars[l].style.background = '#03C988';
         }
     }
 
@@ -47,15 +47,15 @@ async function partition(bars, l, r) {
     console.log(`i = ${i}`, typeof (i));
     // color
     bars[r].style.background = 'pink';
-    bars[i].style.background = 'green';
+    bars[i].style.background = '#03C988';
 
     // pauseChamp
     await wait(delay);
 
     // color
     for (let k = 0; k < bars.length; k++) {
-        if (bars[k].style.background != 'green')
-            bars[k].style.background = '#395B64';
+        if (bars[k].style.background != '#03C988')
+            bars[k].style.background = '#2C74B3';
     }
 
     return i;
