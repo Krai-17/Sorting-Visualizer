@@ -15,7 +15,7 @@ function createBars(noRows = 30) {
     for (let i = 0; i < noRows; i++) {
         const d = document.createElement('button');
         d.classList.add('bar');
-        let r = 450 * (arr[i] / 100);
+        let r = 500 * (arr[i] / 100);
         d.style.height = `${r}px`;
         document.querySelector('.visuals').appendChild(d);
 
